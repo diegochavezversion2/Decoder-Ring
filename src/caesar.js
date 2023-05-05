@@ -1,10 +1,6 @@
-// Please refrain from tampering with the setup code provided here,
-// as the index.html and test files rely on this setup to work properly.
-// Only add code (helper methods, variables, etc.) within the scope
-// of the anonymous function on line 6
+
 
 const caesarModule = (function () {
-  // you can add any code you want within this function scope
 
   function caesar(input = "", shift = 0, encode = true) {
     const letters = "abcdefghijklmnopqrstuvwxyz";
@@ -34,4 +30,3 @@ const caesarModule = (function () {
 
 module.exports = { caesar: caesarModule.caesar };
 
-//if you have "abc", what would you look at next
